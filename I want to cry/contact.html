@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <link rel="stylesheet" href= "dreamland.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+      <title> Contact </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+</head>
+     <body>
+         <div id="wrapper">
+    <a id="top"></a>
+    <header>
+ <nav>
+        <div class ="navbar"> 
+         <div class="logo">
+         <img src="images/worldlogo.png" alt="logo class" class="logo"> </div>
+     
+     </div>
+        <div class="wrapper">
+        <div class="nav">
+        <div class ="companyname">
+            Dreamland Destinations
+            </div>
+            
+            <div class="menu">
+            <div class="container">
+           
+                </div>
+                 <ul class = "menu">
+           <li><a href="index.html">Home</a></li>
+               <li><a href="destinations.html">Destinations</a></li>
+               <li><a href="Packages.html">Packages</a></li>
+               <li><a href="video.html">Videos</a></li>
+             <li class ="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+           
+                </div>
+            </div>
+            </div>
+        </nav>
+    <div class="keepOpen"></div>
+     </header>
+                 <main>
+                        <div class="content">
+    <h1>
+        Contact Us
+        </h1>
+        
+        <form action="thanks.html" method="post" enctype="multipart/form-data" name="thanks" class="contact">
+        
+        <fieldset>
+            <legend> Personal Information</legend>
+            <label> <span> Name: </span> <input type="text" name="name" placeholder="full name" required class="userinfo"></label>
+                                      
+            <label> <span> Address </span> <input type="text" name="address" placeholder="address" required class="userinfo"></label>
+         
+            <label> <span> Email: </span> <input type="email" name="email" placeholder="email@gmail.com" class="userinfo"></label>
+                                      
+             <label> <span> Phone: </span> <input type="tel" name="phone" placeholder="123-456-7891" required pattern="[0-9-. ]{10,14}" class="userinfo"></label>
+                                      
+            </fieldset>
+                                      
+            
+            <fieldset>
+            <legend> Pick Your Destination </legend>
+                <label><input type="radio" name="type"> China </label> <br>
+                <label><input type="radio" name="type"> Greece </label> <br>
+                <label><input type="radio" name="type"> Germany </label> <br>
+                <label><input type="radio" name="type"> Japan </label> <br>
+                <label><input type="radio" name="type"> Africa </label> <br>
+                <label><input type="radio" name="type"> Japan </label> <br>
+                <label><input type="radio" name="type"> Thailand </label> <br>
+         
+           
+            </fieldset>
+            
+            
+             
+        <fieldset>
+            <legend>Interested in any of our featured packages?</legend><br>
+               
+            <label><input type="radio" name="package" value="Costa Rican Getaway">Costa Rican Getaway</label> <br>
+                <label><input type="radio" name="package" value="Italian Delight"> Italian Delight</label> <br>
+             <label><input type="radio" name="package" value="Irish Dream"> Irish Dream</label> <br>
+                <br>
+            
+            
+            
+            <label><span> Preferred Date </span> <input type="date" name="date" class="userinfo"> </label>
+            
+            <label> <span> Credit Card Type </span>
+                <select name= "creditcard" class="userinfo">
+                <option value ="MC"> Mastercard</option>
+                    <option value ="V"> Visa </option>
+                    <option value ="D"> Discover </option>
+                
+                </select>
+            </label> <br>
+            <br>
+            </fieldset>
+            
+       
+<div>
+<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+Comments
+</textarea>
+</div>
+<input type="submit" value="Submit">
+</form>
+            
+                 <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                    
+            
+            
+        </form> 
+                            
+                            <form action="mailto:kaybaggerly@gmail.com"> </form>
+                     </div>
+
+    </main>
+
+    
+    <footer>
+    <p>&copy; 2020 &bull; New Beginnings
+        &bull; Built by Kayla Baggerly &bull; 6/2/2020 </p>
+    </footer>
+             </div> <!-- End of Wrapper -->
+        </body>
+    </html>

@@ -1,0 +1,559 @@
+body, p, h1, h2, h3, h4, h5 ,hy {
+    padding:0;
+    margin: 0;
+    
+}
+
+/* box model fix */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+body, html {
+    height: 100%
+}
+
+
+body {
+    background-image: url(images/gradient1.jpg);
+    background-repeat: repeat-x;
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    color: #3d3d3f;
+
+}
+
+body.landing {
+    background: url(Images/cherryblossonms.webp) no-repeat center center fixed;
+}
+
+
+
+
+/**Phone Nave **/
+@media only screen and (max-width: 600px) { 
+    nav {
+     background-color: indianred;
+        padding: .5rem 2%;
+        height: 100px;
+    }
+    
+    nav ul.menu {
+        vertical-align: top;
+        padding: 0;
+    }
+    
+    nav ul.menu li a {
+        padding: .2rem 1rem;
+        margin-bottom: .5rem;
+        background-color: indianred;
+        font-weight: 700;
+        text-decoration: none;
+        display: block;
+        border: solid .5px white;
+        border-radius: 10rem;
+        text-align: center;
+        height: 50px;
+        width: 400px
+
+    }
+    
+    nav ul.menu li a:hover {
+        background-color: orange;
+    }
+    
+    nav ul.menu li.active a {
+        background-color: cadetblue;
+        color: #dfdfdf;
+    } 
+    .logo {
+    width: 60px;
+    float:center;
+    margin-left:  20px;
+    margin-top: 4px;
+    
+}
+    
+    .companyname {
+    float: left;
+        
+    color: #fff
+    font-size: 100px;
+    line-height: 80px;
+    padding: 0 6em;
+    font-family: 'Calligraffitti', cursive;
+    margin-left: -60px;
+    padding-top: 5px;
+}
+
+}
+
+
+
+
+/**Desktop Nav **/
+@media only screen and (min-width: 601px) {
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    margin-bottom: 20px;
+  
+}
+
+nav {
+width: 100%;
+height: 80px;
+background-color: indianred;
+    top: 0;
+    left:0;
+    margin-bottom:20px;
+    
+}
+    
+    
+
+landing. {
+    position: static;
+}
+    
+    nav ul.menu li a:hover {
+        background-color: white;
+        color: indianred;
+           width:20px;
+           height:20xpx;
+    }
+    
+    nav ul.menu li.active a {
+        background-color: lightcoral;
+        color: #dfdfdf;
+    } 
+
+    
+    .companyname {
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 6em;
+    font-family: 'Calligraffitti', cursive;
+    margin-left: -60px;
+    padding-top: 5px;
+}
+    
+        
+      .logo {
+    width: 60px;
+    float:left;
+    margin-left:  20px;
+    margin-top: 4px;
+
+    
+
+}
+
+}
+
+/** Phone Nav **/
+@media only screen and (max-width: 600px) {
+
+
+
+nav ul li {
+    list-style-type: none;
+    display: block;
+    
+}
+    
+    
+
+
+  nav ul.menu li a {
+        padding: .1rem 1rem;
+        margin-bottom: .5rem;
+        font-weight: 700;
+        text-decoration: none;
+        display: block;
+        border-radius: 7rem;
+        text-align: center;
+        padding-top: 10px;
+}
+
+
+
+.navbar {
+    
+    width: 100%;
+    overflow: hidden;
+    height: 10px;
+    line-height: 70px;
+    
+}
+    .menu {
+    float: right;
+    margin-bottom: 10px;
+    line-height: 30px;
+    margin: 0 1em;
+    position: relative;
+    padding: 10px 10px 28px 45px;
+}
+
+.menu ul {
+    list-style: none;
+    
+}
+
+.menu ul li {
+    display: block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+    nav ul.menu li a:hover {
+        background-color: aliceblue;
+        color: indianred;
+    }
+    
+    nav ul.menu li.active a {
+        background-color: lightcoral;
+        color: #dfdfdf;
+    } 
+    
+    .logo {
+    width: 100px;
+    margin-bottom:30px;
+    }
+    
+  
+    .companyname {
+    color: whitesmoke;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Calligraffitti', cursive;
+    margin-left: -115px;
+    
+}
+}
+
+
+
+
+
+
+.menu {
+    float: right;
+    margin-bottom: 10px;
+    line-height: 30px;
+    margin: 0 1em;
+    position: relative;
+    padding: 10px 10px 28px 45px;
+}
+
+.menu ul {
+    list-style: none;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+
+
+
+.header {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+     margin-top: 60px
+}
+
+.header p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    
+}
+
+.header button {
+    color: #fff;
+    background: #009f8b;
+    padding: 12px; 32px;
+    border: none;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
+.content {
+  width: 1400px;
+  border: 10px black;
+   box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+  padding: 50px;
+  margin: auto;
+background-color: ghostwhite;
+}
+
+/* --- Main --- */
+main {
+    padding: .5rem 2%;
+     
+}
+
+main h1 {
+    font-size: 2rem;
+    color: indianred;
+    border-bottom: 1px solid LightSlateGray;
+    margin-bottom: .4rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: cadetblue;
+    margin-bottom: .2rem;
+}
+
+main p {
+    padding-bottom: .8rem;
+    line-height: 150%;
+}
+
+main blockquote {
+    font-style: italic;
+    margin: .4rem 2%;
+    font-size: .9rem;
+    color: cadetblue;
+}
+
+main a {
+    color: light;
+    
+}
+
+main a:hover {
+    color: #1290cf;
+}
+
+
+/* --- Images --- */
+figure.europe {
+    float: center;
+    width: 50%;
+    border: solid 8px midnightblue;
+    margin: auto;
+    padding:0px;
+    align-content: left;
+    display: block;
+    margin-left: -2px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+   
+}
+
+figure.europe img {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+figure.europe figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: midnightblue;
+       font-family: 'Calligraffitti', cursive;
+    font-size: 30px;
+}
+
+figure.testimonials {
+    float: left;
+    justify-content: center;
+    border: 4px solid midnightblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 320px;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    margin-left: -5px;
+
+
+    
+}
+
+figure.testimonials figcaption {
+    font-size: .7rem;
+}
+
+figure.testimonials figcaption span {
+    display: block;
+    font-weight: bold;
+    font-size:.9rem;
+    color: midnightblue;
+    
+}
+
+figure.testimonials img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+div.testimonialGallery {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+figure.destinations {
+    float: left;
+    justify-content: center;
+    border: 4px solid midnightblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+
+
+    
+}
+
+
+
+figure.destinations img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+div.destionationsGallery {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+figure.destinations figcaption span {
+    display: block;
+    font-weight: bold;
+    font-size:.9rem;
+    color: midnightblue;
+    
+}
+
+/** Video **/
+iframe.video {
+    width: 98%;
+    margin-left: 1%;
+    height: 320px;
+    margin-bottom: 1rem;
+    
+}
+
+
+/* --- FORM --- */
+form.contact fieldset
+
+{ 
+color: midnightblue;
+margin-bottom: 2rem;
+border-radius: .5rem;
+font-size: .8rem;
+color: midnightblue;
+}
+
+form.contact legend {
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+form.contact span {
+    display: block;
+    padding: .6rem 0 0 .3rem;
+}
+
+form.contact .userinfo {
+    color: black;
+    width: 20rem;
+    border-radius: .6rem;
+     border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: .4rem;
+}
+
+form.contact.tourbutton {
+    width: 20rem;
+    padding: .8rem;
+    margin-left: 2%;
+    background: midnightblue;
+   
+    border-radius: .6rem;
+    color: midnightblue;
+}
+
+
+
+/* --- FOOTER --- */
+footer {
+    background-color: midnightblue;
+}
+
+footer p {
+    text-align: center;
+    color: #f9f8fd;
+    padding: .5rem;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: 20px
+}
+
+
+
+/* --- OTHER --- */
+div.keepOpen {
+    clear: both;
+}
+
+div.top {
+    float: left;
+}
+
